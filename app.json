@@ -1,5 +1,6 @@
 {
   "expo": {
+    // 앱 이름
     "name": "HANAROADCOM",
     "slug": "HANAROADCOM",
     "version": "1.0.0",
@@ -15,16 +16,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.IosHanaroadcom.myapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.Hanaroadcom.myapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3ce31314-1a66-47cd-a072-e98ca1708887"
+      }
     }
   }
 }
